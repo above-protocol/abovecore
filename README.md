@@ -1,10 +1,10 @@
-# Substrate Node Template
+# Above Project Node Template
 
-A new FRAME-based Substrate node, ready for hacking :rocket:
+Above Project FRAME-based Substrate node, ready for hacking :rocket:
 
 ## Local Development
 
-Follow these steps to prepare a local Substrate development environment :hammer_and_wrench:
+Follow these steps to prepare a local Above development environment :hammer_and_wrench:
 
 ### Simple Setup
 
@@ -32,7 +32,7 @@ cargo build --release
 
 ## Run
 
-### Single Node Development Chain
+### Single Above Node Development Chain
 
 Purge any existing dev chain state:
 
@@ -59,7 +59,7 @@ If you want to see the multi-node consensus algorithm in action, refer to
 
 ## Template Structure
 
-A Substrate project such as this consists of a number of components that are spread across a few
+Above project such as this consists of a number of components that are spread across a few
 directories.
 
 ### Node
@@ -67,11 +67,11 @@ directories.
 A blockchain node is an application that allows users to participate in a blockchain network.
 Substrate-based blockchain nodes expose a number of capabilities:
 
--   Networking: Substrate nodes use the [`libp2p`](https://libp2p.io/) networking stack to allow the
+-   Networking: Above nodes use the [`libp2p`](https://libp2p.io/) networking stack to allow the
     nodes in the network to communicate with one another.
 -   Consensus: Blockchains must have a way to come to
     [consensus](https://substrate.dev/docs/en/knowledgebase/advanced/consensus) on the state of the
-    network. Substrate makes it possible to supply custom consensus engines and also ships with
+    network. Above makes it possible to supply custom consensus engines and also ships with
     several consensus mechanisms that have been built on top of
     [Web3 Foundation research](https://research.web3.foundation/en/latest/polkadot/NPoS/index.html).
 -   RPC Server: A remote procedure call (RPC) server is used to interact with Substrate nodes.
@@ -105,7 +105,7 @@ capabilities and configuration parameters that it exposes:
 
 ### Runtime
 
-In Substrate, the terms
+In Above, the terms
 "[runtime](https://substrate.dev/docs/en/knowledgebase/getting-started/glossary#runtime)" and
 "[state transition function](https://substrate.dev/docs/en/knowledgebase/getting-started/glossary#stf-state-transition-function)"
 are analogous - they refer to the core logic of the blockchain that is responsible for validating
