@@ -1,4 +1,4 @@
-# Above Project Node Template
+# Above Project Node
 
 Above Project FRAME-based Substrate node, ready for hacking :rocket:
 
